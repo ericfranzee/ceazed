@@ -1,13 +1,13 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/model/model/notification_data.dart';
-import 'package:demand/domain/model/model/referral_model.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/count_of_notifications_data.dart';
-import 'package:demand/domain/model/response/notification_response.dart';
-import 'package:demand/domain/model/response/profile_response.dart';
-import 'package:demand/domain/model/response/transaction_histories_response.dart';
-import 'package:demand/domain/model/response/digital_list_response.dart';
+import 'package:temiwa/domain/model/model/notification_data.dart';
+import 'package:temiwa/domain/model/model/referral_model.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/count_of_notifications_data.dart';
+import 'package:temiwa/domain/model/response/notification_response.dart';
+import 'package:temiwa/domain/model/response/profile_response.dart';
+import 'package:temiwa/domain/model/response/transaction_histories_response.dart';
+import 'package:temiwa/domain/model/response/digital_list_response.dart';
 
 abstract class UserInterface {
   Future<Either<ProfileResponse, dynamic>> getProfileDetails(

@@ -4,14 +4,14 @@ import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:demand/app_constants.dart';
-import 'package:demand/application/map/map_bloc.dart';
-import 'package:demand/domain/model/model/address_info.dart';
-import 'package:demand/domain/model/model/location_model.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/components/components.dart';
+import 'package:temiwa/app_constants.dart';
+import 'package:temiwa/application/map/map_bloc.dart';
+import 'package:temiwa/domain/model/model/address_info.dart';
+import 'package:temiwa/domain/model/model/location_model.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/components/components.dart';
 
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/style.dart';
 import 'package:lottie/lottie.dart' as lottie;
 
 import 'widgets/main_list_shimmer.dart';

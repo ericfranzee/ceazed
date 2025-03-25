@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/create_order_model.dart';
-import 'package:demand/domain/model/response/maksekeskus_response.dart';
-import 'package:demand/domain/model/response/payments_response.dart';
-import 'package:demand/domain/model/response/transactions_response.dart';
+import 'package:temiwa/domain/model/model/create_order_model.dart';
+import 'package:temiwa/domain/model/response/maksekeskus_response.dart';
+import 'package:temiwa/domain/model/response/payments_response.dart';
+import 'package:temiwa/domain/model/response/transactions_response.dart';
 
 abstract class PaymentsInterface {
   Future<Either<PaymentsResponse, dynamic>> getPayments();

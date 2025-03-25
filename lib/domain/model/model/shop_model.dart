@@ -1,4 +1,4 @@
-import 'package:demand/domain/model/response/delivery_point_response.dart';
+import 'package:temiwa/domain/model/response/delivery_point_response.dart';
 
 import 'location_model.dart';
 import 'shop_delivery_model.dart';

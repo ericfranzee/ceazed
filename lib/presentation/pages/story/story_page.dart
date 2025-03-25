@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:demand/application/story/story_bloc.dart';
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/application/story/story_bloc.dart';
+import 'package:temiwa/presentation/style/style.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 import 'widgets/story_image.dart';

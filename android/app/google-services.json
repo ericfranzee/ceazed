@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "356560069025",
+    "project_id": "temi-wa",
+    "storage_bucket": "temi-wa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356560069025:android:d1383d8e544de0335d2be0",
+        "android_client_info": {
+          "package_name": "com.temiwa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356560069025-22oh6n0shs56ie3qh0dvqrieau4un892.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.temiwa",
+            "certificate_hash": "42e77ed94b4b0501016acd8af662180b916bcca5"
+          }
+        },
+        {
+          "client_id": "356560069025-3nkf5f307l22c5rdc2nfb6scpgdsepue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU6zDJUVaR2hnbNBsosFuf7f5PxMnpLf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356560069025-3nkf5f307l22c5rdc2nfb6scpgdsepue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "356560069025-77sml87021hjg4j34vqsm77h814lncb3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.temiwa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

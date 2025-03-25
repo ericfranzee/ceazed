@@ -1,7 +1,7 @@
-import 'package:demand/application/story/story_bloc.dart';
-import 'package:demand/presentation/route/app_route_shop.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/story/story_bloc.dart';
+import 'package:temiwa/presentation/route/app_route_shop.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/app_constants.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/app_constants.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import '../keyboard_dismisser.dart';
 import 'blur_wrap.dart';
 

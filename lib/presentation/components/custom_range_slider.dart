@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/style.dart';
 
 class CustomRoundRangeSliderThumbShape extends RangeSliderThumbShape {
   const CustomRoundRangeSliderThumbShape({

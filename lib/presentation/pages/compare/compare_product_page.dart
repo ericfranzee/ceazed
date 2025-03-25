@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
 
-import 'package:demand/presentation/components/components.dart';
+import 'package:temiwa/presentation/components/components.dart';
 
-import 'package:demand/presentation/pages/compare/widgets/additional_info.dart';
-import 'package:demand/presentation/pages/compare/widgets/main_info.dart';
-import 'package:demand/presentation/pages/compare/widgets/price_compare.dart';
-import 'package:demand/presentation/pages/compare/widgets/review_compare.dart';
-import 'package:demand/presentation/pages/compare/widgets/title_compare.dart';
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/presentation/pages/compare/widgets/additional_info.dart';
+import 'package:temiwa/presentation/pages/compare/widgets/main_info.dart';
+import 'package:temiwa/presentation/pages/compare/widgets/price_compare.dart';
+import 'package:temiwa/presentation/pages/compare/widgets/review_compare.dart';
+import 'package:temiwa/presentation/pages/compare/widgets/title_compare.dart';
+import 'package:temiwa/presentation/style/style.dart';
 
 class CompareProductPage extends StatelessWidget {
   final List<ProductData> list;

@@ -4,8 +4,8 @@
 
 import 'dart:convert';
 
-import 'package:demand/domain/model/model/master_model.dart';
-import 'package:demand/domain/model/model/shop_model.dart';
+import 'package:temiwa/domain/model/model/master_model.dart';
+import 'package:temiwa/domain/model/model/shop_model.dart';
 
 import '../model/translation_model.dart';
 

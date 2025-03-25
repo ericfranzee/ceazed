@@ -5,16 +5,16 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:grouped_list/grouped_list.dart';
-import 'package:demand/application/chat/chat_bloc.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/model/model/message_model.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/firebase/firebase_service.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/pages/chat/widget/send_button.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/chat/chat_bloc.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/model/model/message_model.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/firebase/firebase_service.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/pages/chat/widget/send_button.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 import 'widget/message_item.dart';
 

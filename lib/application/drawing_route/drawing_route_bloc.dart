@@ -1,16 +1,16 @@
-import 'package:demand/app_constants.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
+import 'package:temiwa/app_constants.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:demand/domain/model/model/order_model.dart';
-import 'package:demand/domain/model/model/parcel_order_model.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/components/maps_list.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/domain/model/model/order_model.dart';
+import 'package:temiwa/domain/model/model/parcel_order_model.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/components/maps_list.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import 'package:map_launcher/map_launcher.dart';
 
 part 'drawing_route_event.dart';
@@ -75,7 +75,7 @@ class DrawingRouteBloc extends Bloc<DrawingRouteEvent, DrawingRouteState> {
       final ImageCropperForMarker image = ImageCropperForMarker();
       if (event.parcel != null) {
         Map<MarkerId, Marker> list = {
-          const MarkerId("Uzmart"): Marker(
+          const MarkerId("Ericfranzee"): Marker(
               onTap: () {
                 AppHelpers.showCustomModalBottomSheet(
                     context: event.context,
@@ -95,10 +95,10 @@ class DrawingRouteBloc extends Bloc<DrawingRouteEvent, DrawingRouteState> {
                                   AppHelpers.getInitialLatitude(),
                               event.parcel?.addressFrom?.longitude ??
                                   AppHelpers.getInitialLongitude()),
-                          title: "Uzmart"),
+                          title: "Ericfranzee"),
                     ));
               },
-              markerId: const MarkerId("Uzmart"),
+              markerId: const MarkerId("Ericfranzee"),
               position: LatLng(
                 event.parcel?.addressFrom?.latitude ??
                     AppHelpers.getInitialLatitude(),
@@ -107,8 +107,8 @@ class DrawingRouteBloc extends Bloc<DrawingRouteEvent, DrawingRouteState> {
               ),
               icon: await image.resizeAndCircle(
                   LocalStorage.getUser().img ?? "", 120)),
-          const MarkerId("Githubit"): Marker(
-              markerId: const MarkerId("Githubit"),
+          const MarkerId("Temiwa"): Marker(
+              markerId: const MarkerId("Temiwa"),
               onTap: () {
                 AppHelpers.showCustomModalBottomSheet(
                     context: event.context,
@@ -128,7 +128,7 @@ class DrawingRouteBloc extends Bloc<DrawingRouteEvent, DrawingRouteState> {
                                   AppHelpers.getInitialLatitude(),
                               event.parcel?.addressTo?.longitude ??
                                   AppHelpers.getInitialLongitude()),
-                          title: "Githubit"),
+                          title: "Temiwa"),
                     ));
               },
               position: LatLng(
@@ -180,8 +180,8 @@ class DrawingRouteBloc extends Bloc<DrawingRouteEvent, DrawingRouteState> {
         return;
       }
       Map<MarkerId, Marker> list = {
-        const MarkerId("Uzmart"): Marker(
-            markerId: const MarkerId("Uzmart"),
+        const MarkerId("Ericfranzee"): Marker(
+            markerId: const MarkerId("Ericfranzee"),
             onTap: () {
               AppHelpers.showCustomModalBottomSheet(
                   context: event.context,
@@ -210,7 +210,7 @@ class DrawingRouteBloc extends Bloc<DrawingRouteEvent, DrawingRouteState> {
                                   : event.order?.shop?.location?.longitude) ??
                               AppHelpers.getInitialLongitude(),
                         ),
-                        title: "Uzmart"),
+                        title: "Ericfranzee"),
                   ));
             },
             position: LatLng(

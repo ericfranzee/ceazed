@@ -3,16 +3,16 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:demand/application/map/map_bloc.dart';
-import 'package:demand/application/shop/shop_bloc.dart';
-import 'package:demand/domain/model/model/location_model.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/components/shop_items/shop_item.dart';
-import 'package:demand/presentation/pages/search/widgets/search_widget.dart';
-import 'package:demand/presentation/route/app_route_shop.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/map/map_bloc.dart';
+import 'package:temiwa/application/shop/shop_bloc.dart';
+import 'package:temiwa/domain/model/model/location_model.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/components/shop_items/shop_item.dart';
+import 'package:temiwa/presentation/pages/search/widgets/search_widget.dart';
+import 'package:temiwa/presentation/route/app_route_shop.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 class SearchMapPage extends StatefulWidget {

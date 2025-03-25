@@ -1,10 +1,10 @@
-import 'package:demand/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:bloc/bloc.dart';
-import 'package:demand/domain/model/model/master_model.dart';
-import 'package:demand/domain/model/model/review_data.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/domain/model/model/master_model.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 part 'master_event.dart';

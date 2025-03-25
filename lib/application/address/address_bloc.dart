@@ -1,14 +1,14 @@
-import 'package:demand/domain/model/request/add_user_address_model.dart';
+import 'package:temiwa/domain/model/request/add_user_address_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:bloc/bloc.dart';
 import 'package:google_place/google_place.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/model/model/country_model.dart';
-import 'package:demand/domain/model/model/location_model.dart';
-import 'package:demand/domain/model/response/city_pagination_response.dart';
-import 'package:demand/domain/model/response/user_address_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/model/model/country_model.dart';
+import 'package:temiwa/domain/model/model/location_model.dart';
+import 'package:temiwa/domain/model/response/city_pagination_response.dart';
+import 'package:temiwa/domain/model/response/user_address_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 part 'address_event.dart';

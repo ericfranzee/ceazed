@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/response/currencies_response.dart';
-import 'package:demand/domain/model/response/global_settings_response.dart';
-import 'package:demand/domain/model/response/help_response.dart';
-import 'package:demand/domain/model/response/languages_response.dart';
-import 'package:demand/domain/model/response/mobile_translations_response.dart';
+import 'package:temiwa/domain/model/response/currencies_response.dart';
+import 'package:temiwa/domain/model/response/global_settings_response.dart';
+import 'package:temiwa/domain/model/response/help_response.dart';
+import 'package:temiwa/domain/model/response/languages_response.dart';
+import 'package:temiwa/domain/model/response/mobile_translations_response.dart';
 
 import '../model/model/translation_model.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:demand/domain/model/model/stepper_steps.dart';
+import 'package:temiwa/domain/model/model/stepper_steps.dart';
 
 class CasaVerticalStepperView extends StatefulWidget {
   final List<StepperStep> steps;

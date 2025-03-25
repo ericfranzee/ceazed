@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:demand/app_constants.dart';
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/app_constants.dart';
+import 'package:temiwa/presentation/style/style.dart';
 
 class BadgeItem extends StatelessWidget {
   const BadgeItem({super.key});

@@ -1,11 +1,11 @@
 // ignore_for_file: depend_on_referenced_packages
 
-import 'package:demand/domain/model/request/create_shop_request.dart';
+import 'package:temiwa/domain/model/request/create_shop_request.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:bloc/bloc.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 
 part 'become_seller_event.dart';
 

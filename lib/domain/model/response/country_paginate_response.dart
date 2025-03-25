@@ -1,4 +1,4 @@
-import 'package:demand/domain/model/model/country_model.dart';
+import 'package:temiwa/domain/model/model/country_model.dart';
 
 class CountryPaginationResponse {
   List<CountryModel>? data;

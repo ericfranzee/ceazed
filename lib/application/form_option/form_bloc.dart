@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:bloc/bloc.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/model/response/form_options_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/model/response/form_options_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 
 part 'form_event.dart';
 

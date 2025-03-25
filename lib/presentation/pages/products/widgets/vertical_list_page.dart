@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/presentation/components/product_items/vertical_product_item.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/presentation/components/product_items/vertical_product_item.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 class VerticalListPage extends StatelessWidget {

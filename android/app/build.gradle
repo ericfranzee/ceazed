@@ -42,7 +42,7 @@ if (project.hasProperty('dart-defines')) {
 
 
 android {
-    namespace "com.ibeauty.app"
+    namespace "com.temiwa"
     compileSdkVersion 34
     ndkVersion = "27.0.12077973"
     compileOptions {
@@ -59,15 +59,15 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.ibeauty.app"
+        applicationId "com.temiwa"
         minSdkVersion 23
         multiDexEnabled true
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
-        resValue "string", "google_maps_api_key", dartDefines.GOOGLE_MAPS_API_KEY
-        resValue "string", "facebook_app_id", dartDefines.FACEBOOK_APP_ID
-        resValue "string", "facebook_client_token", dartDefines.FACEBOOK_CLIENT_TOKEN
+        resValue "string", "google_maps_api_key", dartDefines.GOOGLE_MAPS_API_KEY ? dartDefines.GOOGLE_MAPS_API_KEY : "AIzaSyAbAKIZGxrlrDnb9g1R5L6dB6sQPHuHaJ0"
+        resValue "string", "facebook_app_id", dartDefines.FACEBOOK_APP_ID ? dartDefines.FACEBOOK_APP_ID : "1011717883744036"
+        resValue "string", "facebook_client_token", dartDefines.FACEBOOK_CLIENT_TOKEN ? dartDefines.FACEBOOK_CLIENT_TOKEN : "624e02d27e2f8f903fddd8b4dfa144b4"
     }
 
     signingConfigs {

@@ -1,17 +1,17 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/filter_shop_model.dart';
-import 'package:demand/domain/model/model/location_model.dart';
-import 'package:demand/domain/model/model/review_data.dart';
-import 'package:demand/domain/model/model/shop_model.dart';
-import 'package:demand/domain/model/model/story_model.dart';
-import 'package:demand/domain/model/request/create_shop_request.dart';
-import 'package:demand/domain/model/response/gift_cart_response.dart';
-import 'package:demand/domain/model/response/membership_response.dart';
-import 'package:demand/domain/model/response/my_gift_cart_response.dart';
-import 'package:demand/domain/model/response/my_membership_response.dart';
-import 'package:demand/domain/model/response/shops_paginate_response.dart';
-import 'package:demand/domain/model/response/single_shop_response.dart';
-import 'package:demand/domain/model/model/shop_filter_model.dart';
+import 'package:temiwa/domain/model/model/filter_shop_model.dart';
+import 'package:temiwa/domain/model/model/location_model.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
+import 'package:temiwa/domain/model/model/shop_model.dart';
+import 'package:temiwa/domain/model/model/story_model.dart';
+import 'package:temiwa/domain/model/request/create_shop_request.dart';
+import 'package:temiwa/domain/model/response/gift_cart_response.dart';
+import 'package:temiwa/domain/model/response/membership_response.dart';
+import 'package:temiwa/domain/model/response/my_gift_cart_response.dart';
+import 'package:temiwa/domain/model/response/my_membership_response.dart';
+import 'package:temiwa/domain/model/response/shops_paginate_response.dart';
+import 'package:temiwa/domain/model/response/single_shop_response.dart';
+import 'package:temiwa/domain/model/model/shop_filter_model.dart';
 
 abstract class ShopsInterface {
   Future<Either<ShopsPaginateResponse, dynamic>> getAllShops(

@@ -1,5 +1,5 @@
-import 'package:demand/domain/model/model/meta_model.dart';
-import 'package:demand/domain/model/model/parcel_order_model.dart';
+import 'package:temiwa/domain/model/model/meta_model.dart';
+import 'package:temiwa/domain/model/model/parcel_order_model.dart';
 
 class ParcelPaginateResponse {
   ParcelPaginateResponse({

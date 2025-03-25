@@ -2,17 +2,17 @@ import 'dart:convert';
 
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/booking.dart';
-import 'package:demand/domain/model/model/master_model.dart';
-import 'package:demand/domain/model/response/blog_details_response.dart';
-import 'package:demand/domain/model/response/booking_calculate_response.dart';
-import 'package:demand/domain/model/response/booking_response.dart';
-import 'package:demand/domain/model/response/check_time_response.dart';
-import 'package:demand/domain/model/response/form_options_response.dart';
-import 'package:demand/domain/model/response/service_of_master_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/booking.dart';
+import 'package:temiwa/domain/model/model/master_model.dart';
+import 'package:temiwa/domain/model/response/blog_details_response.dart';
+import 'package:temiwa/domain/model/response/booking_calculate_response.dart';
+import 'package:temiwa/domain/model/response/booking_response.dart';
+import 'package:temiwa/domain/model/response/check_time_response.dart';
+import 'package:temiwa/domain/model/response/form_options_response.dart';
+import 'package:temiwa/domain/model/response/service_of_master_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class BookingRepository implements BookingInterface {
   @override

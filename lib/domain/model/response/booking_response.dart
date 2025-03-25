@@ -1,9 +1,9 @@
-import 'package:demand/domain/model/model/master_model.dart';
-import 'package:demand/domain/model/model/shop_model.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/form_options_response.dart';
-import 'package:demand/domain/model/response/membership_response.dart';
-import 'package:demand/domain/model/response/review_pagination_response.dart';
+import 'package:temiwa/domain/model/model/master_model.dart';
+import 'package:temiwa/domain/model/model/shop_model.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/form_options_response.dart';
+import 'package:temiwa/domain/model/response/membership_response.dart';
+import 'package:temiwa/domain/model/response/review_pagination_response.dart';
 
 import '../model/location_model.dart';
 import '../model/service_extra.dart';

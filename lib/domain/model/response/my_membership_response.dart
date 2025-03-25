@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:demand/domain/model/response/membership_response.dart';
+import 'package:temiwa/domain/model/response/membership_response.dart';
 
 MyMembershipResponse myMembershipResponseFromJson(String str) => MyMembershipResponse.fromJson(json.decode(str));
 

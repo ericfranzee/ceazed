@@ -1,7 +1,7 @@
 import 'dart:io' show Platform;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/presentation/style/theme/theme_wrapper.dart';
+import 'package:temiwa/presentation/style/theme/theme_wrapper.dart';
 
 class Loading extends StatelessWidget {
   final bool changeColor;

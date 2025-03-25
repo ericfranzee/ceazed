@@ -3,15 +3,15 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/chat.dart';
-import 'package:demand/domain/model/model/chat_model.dart';
-import 'package:demand/domain/model/model/message_model.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/profile_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/firebase/firebase_service.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/chat.dart';
+import 'package:temiwa/domain/model/model/chat_model.dart';
+import 'package:temiwa/domain/model/model/message_model.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/profile_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/firebase/firebase_service.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class ChatRepository implements ChatInterface {
   @override

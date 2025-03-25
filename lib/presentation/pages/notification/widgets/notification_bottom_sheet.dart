@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/domain/model/response/notification_response.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/domain/model/response/notification_response.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 import '../../../components/helpers/blur_wrap.dart';
 

@@ -4,11 +4,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/firebase/firebase_service.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/firebase/firebase_service.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 part 'auth_event.dart';
 

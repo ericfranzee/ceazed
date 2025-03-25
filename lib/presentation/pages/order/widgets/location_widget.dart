@@ -1,16 +1,16 @@
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:demand/application/drawing_route/drawing_route_bloc.dart';
-import 'package:demand/domain/model/model/order_model.dart';
-import 'package:demand/domain/model/model/parcel_order_model.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/drawing_route/drawing_route_bloc.dart';
+import 'package:temiwa/domain/model/model/order_model.dart';
+import 'package:temiwa/domain/model/model/parcel_order_model.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 class LocationWidget extends StatefulWidget {
   final CustomColorSet colors;

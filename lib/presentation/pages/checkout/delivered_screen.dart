@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/application/checkout/checkout_bloc.dart';
-import 'package:demand/domain/model/response/user_address_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/pages/checkout/widget/address_item.dart';
-import 'package:demand/presentation/route/app_route.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/checkout/checkout_bloc.dart';
+import 'package:temiwa/domain/model/response/user_address_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/pages/checkout/widget/address_item.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 class DeliveredScreen extends StatelessWidget {
   final CustomColorSet colors;

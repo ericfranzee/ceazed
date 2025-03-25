@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/application/product_detail/product_detail_bloc.dart';
-import 'package:demand/application/products/product_bloc.dart';
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/domain/model/model/review_data.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/components/components.dart';
+import 'package:temiwa/application/product_detail/product_detail_bloc.dart';
+import 'package:temiwa/application/products/product_bloc.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/components/components.dart';
 
-import 'package:demand/presentation/route/app_route.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 import 'images_list_two.dart';
 

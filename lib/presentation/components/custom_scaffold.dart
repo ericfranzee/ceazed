@@ -2,12 +2,12 @@ import 'dart:async';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/pages/no_internet/no_internet.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
-import 'package:demand/presentation/style/theme/theme_wrapper.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/pages/no_internet/no_internet.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
+import 'package:temiwa/presentation/style/theme/theme_wrapper.dart';
 
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 import 'keyboard_dismisser.dart';
 
 class CustomScaffold extends StatefulWidget {

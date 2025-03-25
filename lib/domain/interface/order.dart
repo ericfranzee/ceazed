@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/create_order_model.dart';
-import 'package:demand/domain/model/model/order_model.dart';
-import 'package:demand/domain/model/response/order_pagenation_response.dart';
-import 'package:demand/domain/model/response/refund_pagination_response.dart';
+import 'package:temiwa/domain/model/model/create_order_model.dart';
+import 'package:temiwa/domain/model/model/order_model.dart';
+import 'package:temiwa/domain/model/response/order_pagenation_response.dart';
+import 'package:temiwa/domain/model/response/refund_pagination_response.dart';
 
 abstract class OrderInterface {
   Future<Either<OrderPaginateResponse, dynamic>> getOrders(

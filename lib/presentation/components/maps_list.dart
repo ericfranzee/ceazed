@@ -1,8 +1,8 @@
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import 'package:map_launcher/map_launcher.dart';
 
 class MapsList extends StatefulWidget {

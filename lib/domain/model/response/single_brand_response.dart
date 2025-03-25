@@ -1,6 +1,6 @@
 
 
-import 'package:demand/domain/model/model/brand_data.dart';
+import 'package:temiwa/domain/model/model/brand_data.dart';
 
 class SingleBrandResponse {
   SingleBrandResponse({

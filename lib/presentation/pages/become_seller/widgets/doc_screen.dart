@@ -1,7 +1,7 @@
-import 'package:demand/application/become_seller/become_seller_bloc.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/become_seller/become_seller_bloc.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_remix/flutter_remix.dart';

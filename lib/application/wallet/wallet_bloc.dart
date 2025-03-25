@@ -1,13 +1,13 @@
-import 'package:demand/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:bloc/bloc.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/payments_response.dart';
-import 'package:demand/domain/model/response/transaction_histories_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/route/app_route.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/payments_response.dart';
+import 'package:temiwa/domain/model/response/transaction_histories_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 part 'wallet_event.dart';

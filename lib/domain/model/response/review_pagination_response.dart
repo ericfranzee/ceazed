@@ -1,4 +1,4 @@
-import 'package:demand/domain/model/model/review_data.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
 
 class ReviewResponseModel {
   List<ReviewModel>? data;

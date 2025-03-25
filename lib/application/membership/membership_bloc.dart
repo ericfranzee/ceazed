@@ -1,14 +1,14 @@
 // ignore_for_file: depend_on_referenced_packages, use_build_context_synchronously
 
-import 'package:demand/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:bloc/bloc.dart';
-import 'package:demand/domain/model/response/membership_response.dart';
-import 'package:demand/domain/model/response/my_membership_response.dart';
-import 'package:demand/domain/model/response/payments_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/route/app_route.dart';
+import 'package:temiwa/domain/model/response/membership_response.dart';
+import 'package:temiwa/domain/model/response/my_membership_response.dart';
+import 'package:temiwa/domain/model/response/payments_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 part 'membership_event.dart';

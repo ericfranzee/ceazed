@@ -1,5 +1,5 @@
 
-import 'package:demand/domain/model/model/translation_model.dart';
+import 'package:temiwa/domain/model/model/translation_model.dart';
 
 class ReferralModel {
   int? id;

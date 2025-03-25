@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class TokenInterceptor extends Interceptor {
   final bool requireAuth;

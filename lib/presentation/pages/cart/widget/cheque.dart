@@ -1,16 +1,16 @@
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/application/cart/cart_bloc.dart';
-import 'package:demand/domain/model/response/cart_calculate_response.dart';
-import 'package:demand/domain/model/response/product_calculate_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/route/app_route.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/cart/cart_bloc.dart';
+import 'package:temiwa/domain/model/response/cart_calculate_response.dart';
+import 'package:temiwa/domain/model/response/product_calculate_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 class ChequeWidget extends StatelessWidget {
   final CustomColorSet colors;

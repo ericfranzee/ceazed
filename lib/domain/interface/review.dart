@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/review_statistic_model.dart';
-import 'package:demand/domain/model/response/review_check_response.dart';
-import 'package:demand/domain/model/response/review_options_response.dart';
-import 'package:demand/domain/model/response/review_pagination_response.dart';
+import 'package:temiwa/domain/model/model/review_statistic_model.dart';
+import 'package:temiwa/domain/model/response/review_check_response.dart';
+import 'package:temiwa/domain/model/response/review_options_response.dart';
+import 'package:temiwa/domain/model/response/review_pagination_response.dart';
 
 abstract class ReviewInterface {
   Future<Either<ReviewResponseModel, dynamic>> fetchReviewList({

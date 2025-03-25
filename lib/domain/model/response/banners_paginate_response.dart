@@ -1,5 +1,5 @@
-import 'package:demand/domain/model/model/review_data.dart';
-import 'package:demand/domain/model/model/translation_model.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
+import 'package:temiwa/domain/model/model/translation_model.dart';
 
 class BannersPaginateResponse {
   BannersPaginateResponse({List<BannerData>? data}) {

@@ -3,13 +3,13 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
-import 'package:demand/application/shop/shop_bloc.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/route/app_route.dart';
-import 'package:demand/presentation/route/app_route_setting.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/shop/shop_bloc.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
+import 'package:temiwa/presentation/route/app_route_setting.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ConnectButtonShop extends StatelessWidget {

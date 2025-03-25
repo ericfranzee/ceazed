@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/domain/model/response/ads_response.dart';
-import 'package:demand/domain/model/response/banners_paginate_response.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/response/ads_response.dart';
+import 'package:temiwa/domain/model/response/banners_paginate_response.dart';
 
 abstract class BannersInterface {
   Future<Either<BannersPaginateResponse, dynamic>> getBannersPaginate({

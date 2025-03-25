@@ -6,7 +6,7 @@ class CustomStyle {
   CustomStyle._();
 
   /// colors.
-  static const Color primary = Color(0xffBB9B6A);
+  static const Color primary = Color(0xfff3937b);
 
   static const Color black = Colors.black;
 

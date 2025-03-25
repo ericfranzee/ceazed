@@ -1,5 +1,5 @@
 
-import 'package:demand/domain/model/model/service_model.dart';
+import 'package:temiwa/domain/model/model/service_model.dart';
 
 class ServicePaginationResponse {
   List<ServiceModel>? data;

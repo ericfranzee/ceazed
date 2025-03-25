@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import 'package:readmore/readmore.dart';
 // ignore: depend_on_referenced_packages
 import 'package:html/parser.dart';

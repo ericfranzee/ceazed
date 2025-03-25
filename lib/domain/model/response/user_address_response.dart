@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:demand/domain/model/model/location_model.dart';
+import 'package:temiwa/domain/model/model/location_model.dart';
 
 import 'city_pagination_response.dart';
 

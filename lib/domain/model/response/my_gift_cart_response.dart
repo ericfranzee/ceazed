@@ -1,5 +1,5 @@
 
-import 'package:demand/domain/model/response/gift_cart_response.dart';
+import 'package:temiwa/domain/model/response/gift_cart_response.dart';
 
 class MyGiftCartResponse {
   List<MyGiftCartModel>? data;

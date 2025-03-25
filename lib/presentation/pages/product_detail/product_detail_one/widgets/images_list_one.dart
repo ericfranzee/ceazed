@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/domain/model/model/review_data.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 class ImagesOneList extends StatelessWidget {
   final CustomColorSet colors;

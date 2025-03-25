@@ -1,12 +1,12 @@
 import 'dart:math';
-import 'package:demand/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:bloc/bloc.dart';
-import 'package:demand/domain/model/model/filter_shop_model.dart';
-import 'package:demand/domain/model/model/shop_filter_model.dart';
-import 'package:demand/domain/model/response/filter_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/domain/model/model/filter_shop_model.dart';
+import 'package:temiwa/domain/model/model/shop_filter_model.dart';
+import 'package:temiwa/domain/model/response/filter_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 
 part 'filter_event.dart';
 part 'filter_state.dart';

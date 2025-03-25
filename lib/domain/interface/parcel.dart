@@ -1,11 +1,11 @@
 
 
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/location_model.dart';
-import 'package:demand/domain/model/model/parcel_order_model.dart';
-import 'package:demand/domain/model/response/parcel_calculate_response.dart';
-import 'package:demand/domain/model/response/parcel_paginate_response.dart';
-import 'package:demand/domain/model/response/parcel_response.dart';
+import 'package:temiwa/domain/model/model/location_model.dart';
+import 'package:temiwa/domain/model/model/parcel_order_model.dart';
+import 'package:temiwa/domain/model/response/parcel_calculate_response.dart';
+import 'package:temiwa/domain/model/response/parcel_paginate_response.dart';
+import 'package:temiwa/domain/model/response/parcel_response.dart';
 
 abstract class ParcelInterface {
   Future<Either<ParcelTypeResponse,dynamic>> getTypes();

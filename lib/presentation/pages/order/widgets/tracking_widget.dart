@@ -1,11 +1,11 @@
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class TrackingWidget extends StatelessWidget {

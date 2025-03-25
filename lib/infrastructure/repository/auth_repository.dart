@@ -1,15 +1,15 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/response/profile_response.dart';
-import 'package:demand/domain/model/response/register_response.dart';
+import 'package:temiwa/domain/model/response/profile_response.dart';
+import 'package:temiwa/domain/model/response/register_response.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/auth.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/login_response.dart';
-import 'package:demand/domain/model/response/verify_phone_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/firebase/firebase_service.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/auth.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/login_response.dart';
+import 'package:temiwa/domain/model/response/verify_phone_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/firebase/firebase_service.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class AuthRepository implements AuthInterface {
   @override

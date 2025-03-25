@@ -1,12 +1,12 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:bloc/bloc.dart';
-import 'package:demand/domain/model/model/review_statistic_model.dart';
-import 'package:demand/domain/model/response/review_options_response.dart';
-import 'package:demand/domain/model/response/review_pagination_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/domain/model/model/review_statistic_model.dart';
+import 'package:temiwa/domain/model/response/review_options_response.dart';
+import 'package:temiwa/domain/model/response/review_pagination_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 part 'review_event.dart';

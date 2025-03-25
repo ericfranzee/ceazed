@@ -1,10 +1,10 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:demand/application/game/game_bloc.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/game/models/board.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/game/game_bloc.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/game/models/board.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 import '../const/colors.dart';
 

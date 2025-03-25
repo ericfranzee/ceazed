@@ -1,5 +1,5 @@
 
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 
 class UiExtra {
   final int index;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:demand/application/banner/banner_bloc.dart';
-import 'package:demand/presentation/pages/home/home_one/widgets/ads_one_item.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/banner/banner_bloc.dart';
+import 'package:temiwa/presentation/pages/home/home_one/widgets/ads_one_item.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 class AdsShopOne extends StatelessWidget {
   final CustomColorSet colors;

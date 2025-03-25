@@ -1,10 +1,10 @@
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/components/custom_toggle.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/components/custom_toggle.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 class ChangeThemeButton extends StatelessWidget {
   final CustomColorSet colors;

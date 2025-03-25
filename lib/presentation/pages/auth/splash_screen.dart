@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/app_assets.dart';
-import 'package:demand/presentation/route/app_route.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/app_assets.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

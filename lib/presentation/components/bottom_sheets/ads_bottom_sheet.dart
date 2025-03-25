@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/application/banner/banner_bloc.dart';
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/domain/model/response/banners_paginate_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/banner/banner_bloc.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/response/banners_paginate_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 import '../helpers/blur_wrap.dart';
 import '../custom_network_image.dart';

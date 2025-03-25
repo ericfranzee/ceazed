@@ -20,7 +20,7 @@ abstract class TrKeys {
   static const String shopIsClosed = 'shop.is.closed';
   static const String youMustSelectTime =
       'you.must.select.time.for.each.service';
-  static const String selectedMasterDosntSupport = 'selected.master.does.not.support.chosen.services';
+  static const String selectedMasterDosntSupport = 'selected.specialist.does.not.support.chosen.services';
   static const String extrasPrice = 'extras.price';
   static const String giftCartPrice = 'gift.cart.price';
   static const String weAreSendOTPCodeTo = 'we.are.send.OTP.code.to';
@@ -43,7 +43,7 @@ abstract class TrKeys {
   static const String addressList = 'address.list';
   static const String enterOtpCode = 'enter.otp.code';
   static const String orAccessQuickly = 'or.access.quickly';
-  static const String findTheBestServicesInYourCity = 'find.the.best.services.in.your.city';
+  static const String findTheBestServicesInYourCity = 'Elevate.Your.Look.\nSeamless.Booking.for.You.';
   static const String descriptionText = 'description_text';
   static const String dropDown = 'drop_down';
   static const String compare = 'compare';
@@ -65,7 +65,7 @@ abstract class TrKeys {
   static const String ended = 'ended';
   static const String form = 'form';
   static const String selectGiftCart = 'select.gift.cart';
-  static const String selectMaster = 'select.master';
+  static const String selectMaster = 'select.specialist';
   static const String noAvailable = 'no.available.appointments';
   static const String addTime = 'add.time';
   static const String no = 'no';
@@ -78,7 +78,7 @@ abstract class TrKeys {
   static const String myGiftCarts = 'my.gift.carts';
   static const String selectMembership = 'select.membership';
   static const String past = 'past';
-  static const String selectMasterPerService = 'select.master.per.service';
+  static const String selectMasterPerService = 'select.specialist.per.service';
   static const String editReview = 'edit.review';
   static const String writeYourReview = 'write.your.review';
   static const String rateYourExperienceAt = 'rate.your.experience.at';
@@ -118,7 +118,7 @@ abstract class TrKeys {
   static const String messages = 'messages';
   static const String cancelAppointment = 'cancel.appointment';
   static const String youMustSelectMaster =
-      'you.must.select.master.for.each.service';
+      'you.must.select.specialist.for.each.service';
   static const String forBusiness = 'for.business';
   static const String appointments = 'appointments';
   static const String pastAppointments = 'past.appointments';
@@ -142,9 +142,9 @@ abstract class TrKeys {
   static const String selectDateTime = 'select.date.time';
   static const String cleanliness = 'cleanliness';
   static const String services = 'services';
-  static const String addMaster = 'add.master';
+  static const String addMaster = 'add.specialist';
   static const String ourSpecialists = 'our.specialists';
-  static const String theBestMasters = 'the.best.masters';
+  static const String theBestMasters = 'the.best.specialists';
   static const String startFrom = 'start.from';
   static const String nearByShop = 'near.by.shop';
   static const String viewMore = 'view.more';
@@ -198,10 +198,10 @@ abstract class TrKeys {
   static const String addYourFavoriteProduct =
       'add.your.favorite.product.here.and.dont.miss.the.news';
   static const String addYourFavoriteMasters =
-      'add.your.favorite.masters.here.and.dont.miss.the.news';
+      'add.your.favorite.specialists.here.and.dont.miss.the.news';
   static const String emptyInFavorites = 'empty.in.favorites';
-  static const String serviceBeauty = 'service.beauty.salon.or.specialist';
-  static const String findTheBest = 'find.the.best.services.in.your.city';
+  static const String serviceBeauty = 'services.style.or.specialist';
+  static const String findTheBest = 'Your.Go-To.for.Beauty.Services.in.Your.City';
   static const String exceptional = 'exceptional';
   static const String veryGood = 'very.good';
   static const String notBad = 'not.bad';
@@ -542,7 +542,7 @@ abstract class TrKeys {
   static const String copy = 'copy';
   static const String messageCopied = 'message.copied.to.clipboard';
   static const String noMessagesHereYet = 'no.messages.here.yet';
-  static const String selectCountry = 'select.country';
+  static const String selectCountry = 'select.default.country';
   static const String storeReviews = 'store.reviews';
   static const String totalRating = 'total.rating';
   static const String star = 'star';

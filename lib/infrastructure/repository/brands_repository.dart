@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/brands.dart';
-import 'package:demand/domain/model/response/brands_paginate_response.dart';
-import 'package:demand/domain/model/response/single_brand_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/brands.dart';
+import 'package:temiwa/domain/model/response/brands_paginate_response.dart';
+import 'package:temiwa/domain/model/response/single_brand_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class BrandsRepository implements BrandsInterface {
   @override

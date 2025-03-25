@@ -1,6 +1,6 @@
 
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 
 import '../model/location_model.dart';
 

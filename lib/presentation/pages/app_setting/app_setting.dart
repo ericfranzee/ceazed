@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/pages/profile/widgets/button_item.dart';
-import 'package:demand/presentation/route/app_route.dart';
-import 'package:demand/presentation/route/app_route_setting.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
-import 'package:demand/presentation/style/theme/theme_wrapper.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/pages/profile/widgets/button_item.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
+import 'package:temiwa/presentation/route/app_route_setting.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
+import 'package:temiwa/presentation/style/theme/theme_wrapper.dart';
 
 class AppSettingPage extends StatefulWidget {
   const AppSettingPage({super.key});

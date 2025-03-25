@@ -1,7 +1,7 @@
-import 'package:demand/domain/model/model/service_model.dart';
-import 'package:demand/domain/model/model/translation_model.dart';
-import 'package:demand/domain/model/response/my_membership_response.dart';
-import 'package:demand/domain/model/response/user_address_response.dart';
+import 'package:temiwa/domain/model/model/service_model.dart';
+import 'package:temiwa/domain/model/model/translation_model.dart';
+import 'package:temiwa/domain/model/response/my_membership_response.dart';
+import 'package:temiwa/domain/model/response/user_address_response.dart';
 import 'shop_model.dart';
 
 class MasterModel {

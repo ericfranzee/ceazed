@@ -1,16 +1,16 @@
-import 'package:demand/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:bloc/bloc.dart';
-import 'package:demand/domain/model/model/currency_model.dart';
-import 'package:demand/domain/model/model/referral_model.dart';
-import 'package:demand/domain/model/model/translation_model.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/help_response.dart';
-import 'package:demand/domain/model/response/languages_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/domain/model/response/digital_list_response.dart';
+import 'package:temiwa/domain/model/model/currency_model.dart';
+import 'package:temiwa/domain/model/model/referral_model.dart';
+import 'package:temiwa/domain/model/model/translation_model.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/help_response.dart';
+import 'package:temiwa/domain/model/response/languages_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/model/response/digital_list_response.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 part 'profile_event.dart';

@@ -1,16 +1,16 @@
 import 'package:dartz/dartz.dart';
 
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/settings.dart';
-import 'package:demand/domain/model/response/currencies_response.dart';
-import 'package:demand/domain/model/response/global_settings_response.dart';
-import 'package:demand/domain/model/response/help_response.dart';
-import 'package:demand/domain/model/response/languages_response.dart';
-import 'package:demand/domain/model/response/mobile_translations_response.dart';
-import 'package:demand/infrastructure/service/http_service.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/settings.dart';
+import 'package:temiwa/domain/model/response/currencies_response.dart';
+import 'package:temiwa/domain/model/response/global_settings_response.dart';
+import 'package:temiwa/domain/model/response/help_response.dart';
+import 'package:temiwa/domain/model/response/languages_response.dart';
+import 'package:temiwa/domain/model/response/mobile_translations_response.dart';
+import 'package:temiwa/infrastructure/service/http_service.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 import '../../domain/model/model/translation_model.dart';
 

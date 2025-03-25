@@ -1,4 +1,4 @@
-import 'package:demand/domain/model/model/master_model.dart';
+import 'package:temiwa/domain/model/model/master_model.dart';
 
 class MasterPaginationResponse {
   List<MasterModel>? data;

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:demand/application/checkout/checkout_bloc.dart';
-import 'package:demand/application/parcel/parcel_bloc.dart';
-import 'package:demand/application/parcels_list/parcels_list_bloc.dart';
-import 'package:demand/domain/model/model/parcel_order_model.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/pages/parcel/parcel_list_page.dart';
-import 'package:demand/presentation/pages/parcel/parcel_order_page.dart';
-import 'package:demand/presentation/pages/parcel/parcel_page.dart';
-import 'package:demand/presentation/pages/parcel/widgets/info_screen.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/application/checkout/checkout_bloc.dart';
+import 'package:temiwa/application/parcel/parcel_bloc.dart';
+import 'package:temiwa/application/parcels_list/parcels_list_bloc.dart';
+import 'package:temiwa/domain/model/model/parcel_order_model.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/pages/parcel/parcel_list_page.dart';
+import 'package:temiwa/presentation/pages/parcel/parcel_order_page.dart';
+import 'package:temiwa/presentation/pages/parcel/parcel_page.dart';
+import 'package:temiwa/presentation/pages/parcel/widgets/info_screen.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 abstract class AppRouteParcel {
   AppRouteParcel._();

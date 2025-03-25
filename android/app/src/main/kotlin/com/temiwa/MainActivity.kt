@@ -1,4 +1,4 @@
-package com.ibeauty.app
+package com.temiwa
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,4 +1,4 @@
-import 'package:demand/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
 
 class CompareResponse {
   List<List<ProductData>>? compare;

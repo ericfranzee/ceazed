@@ -1,10 +1,10 @@
-import 'package:demand/domain/model/model/coupon_model.dart';
-import 'package:demand/domain/model/model/currency_model.dart';
-import 'package:demand/domain/model/model/shop_model.dart';
-import 'package:demand/domain/model/response/cart_response.dart';
-import 'package:demand/domain/model/response/delivery_point_response.dart';
-import 'package:demand/domain/model/response/refund_pagination_response.dart';
-import 'package:demand/domain/model/response/transactions_response.dart';
+import 'package:temiwa/domain/model/model/coupon_model.dart';
+import 'package:temiwa/domain/model/model/currency_model.dart';
+import 'package:temiwa/domain/model/model/shop_model.dart';
+import 'package:temiwa/domain/model/response/cart_response.dart';
+import 'package:temiwa/domain/model/response/delivery_point_response.dart';
+import 'package:temiwa/domain/model/response/refund_pagination_response.dart';
+import 'package:temiwa/domain/model/response/transactions_response.dart';
 
 import '../response/user_address_response.dart';
 import 'location_model.dart';

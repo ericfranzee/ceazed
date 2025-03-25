@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/presentation/components/components.dart';
+import 'package:temiwa/presentation/components/components.dart';
 
-import 'package:demand/presentation/pages/shop/shop_one/widgets/ads_shop_one.dart';
-import 'package:demand/presentation/pages/shop/shop_one/widgets/new_products_shop_one.dart';
-import 'package:demand/presentation/pages/shop/widgets/connect_button.dart';
-import 'package:demand/presentation/route/app_route.dart';
+import 'package:temiwa/presentation/pages/shop/shop_one/widgets/ads_shop_one.dart';
+import 'package:temiwa/presentation/pages/shop/shop_one/widgets/new_products_shop_one.dart';
+import 'package:temiwa/presentation/pages/shop/widgets/connect_button.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 import 'widgets/category_shop_two.dart';

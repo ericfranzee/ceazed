@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class ChatModel {
   final int? senderId;

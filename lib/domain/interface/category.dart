@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/response/categories_paginate_response.dart';
+import 'package:temiwa/domain/model/response/categories_paginate_response.dart';
 
 abstract class CategoryInterface {
   Future<Either<CategoriesPaginateResponse,dynamic>> getAllCategories({required int page,String? query});

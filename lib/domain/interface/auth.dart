@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/login_response.dart';
-import 'package:demand/domain/model/response/profile_response.dart';
-import 'package:demand/domain/model/response/register_response.dart';
-import 'package:demand/domain/model/response/verify_phone_response.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/login_response.dart';
+import 'package:temiwa/domain/model/response/profile_response.dart';
+import 'package:temiwa/domain/model/response/register_response.dart';
+import 'package:temiwa/domain/model/response/verify_phone_response.dart';
 
 abstract class AuthInterface {
   Future<Either<bool, dynamic>> checkPhone({required String phone});

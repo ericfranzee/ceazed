@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/response/categories_paginate_response.dart';
-import 'package:demand/domain/model/response/service_response.dart';
+import 'package:temiwa/domain/model/response/categories_paginate_response.dart';
+import 'package:temiwa/domain/model/response/service_response.dart';
 
 abstract class ServiceInterface {
   Future<Either<ServicePaginationResponse, dynamic>> getAllService({

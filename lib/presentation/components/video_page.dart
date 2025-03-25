@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:chewie/chewie.dart';
 
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/style.dart';
 import 'package:video_player/video_player.dart';
 
 import 'loading.dart';

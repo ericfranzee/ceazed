@@ -1,13 +1,13 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/banner.dart';
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/domain/model/response/ads_response.dart';
-import 'package:demand/domain/model/response/banners_paginate_response.dart';
-import 'package:demand/domain/model/response/products_paginate_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/banner.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/response/ads_response.dart';
+import 'package:temiwa/domain/model/response/banners_paginate_response.dart';
+import 'package:temiwa/domain/model/response/products_paginate_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class BannersRepository implements BannersInterface {
   @override

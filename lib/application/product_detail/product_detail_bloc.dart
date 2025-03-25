@@ -1,14 +1,14 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/domain/model/model/review_data.dart';
-import 'package:demand/domain/model/model/typed_extra.dart';
-import 'package:demand/domain/model/response/products_paginate_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
+import 'package:temiwa/domain/model/model/typed_extra.dart';
+import 'package:temiwa/domain/model/response/products_paginate_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 part 'product_detail_event.dart';

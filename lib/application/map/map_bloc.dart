@@ -1,7 +1,7 @@
 // ignore_for_file: depend_on_referenced_packages, use_build_context_synchronously
 
 import 'dart:async';
-import 'package:demand/domain/model/model/address_info.dart';
+import 'package:temiwa/domain/model/model/address_info.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:demand/domain/model/response/cart_calculate_response.dart';
-import 'package:demand/domain/model/response/cart_response.dart';
-import 'package:demand/domain/model/response/product_calculate_response.dart';
+import 'package:temiwa/domain/model/response/cart_calculate_response.dart';
+import 'package:temiwa/domain/model/response/cart_response.dart';
+import 'package:temiwa/domain/model/response/product_calculate_response.dart';
 
 abstract class CartInterface {
   Future<Either<CartModel, dynamic>> insertCart();

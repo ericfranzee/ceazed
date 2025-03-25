@@ -1,13 +1,13 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/products.dart';
-import 'package:demand/domain/model/response/compare_response.dart';
-import 'package:demand/domain/model/response/filter_response.dart';
-import 'package:demand/domain/model/response/products_paginate_response.dart';
-import 'package:demand/domain/model/response/single_product_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/products.dart';
+import 'package:temiwa/domain/model/response/compare_response.dart';
+import 'package:temiwa/domain/model/response/filter_response.dart';
+import 'package:temiwa/domain/model/response/products_paginate_response.dart';
+import 'package:temiwa/domain/model/response/single_product_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class ProductsRepository implements ProductsInterface {
   @override

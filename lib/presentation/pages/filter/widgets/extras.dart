@@ -1,10 +1,10 @@
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/application/filter/filter_bloc.dart';
-import 'package:demand/domain/model/response/filter_response.dart';
-import 'package:demand/presentation/pages/filter/widgets/extras_item.dart';
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/application/filter/filter_bloc.dart';
+import 'package:temiwa/domain/model/response/filter_response.dart';
+import 'package:temiwa/presentation/pages/filter/widgets/extras_item.dart';
+import 'package:temiwa/presentation/style/style.dart';
 import 'package:provider/provider.dart';
 
 import '../../../style/theme/theme.dart';

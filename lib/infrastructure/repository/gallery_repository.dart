@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/gallery.dart';
-import 'package:demand/domain/model/response/gallary_list_response.dart';
-import 'package:demand/domain/model/response/gallery_upload_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/gallery.dart';
+import 'package:temiwa/domain/model/response/gallary_list_response.dart';
+import 'package:temiwa/domain/model/response/gallery_upload_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 
 class GalleryRepository implements GalleryInterface {
   @override

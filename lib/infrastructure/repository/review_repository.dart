@@ -2,14 +2,14 @@
 
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/review.dart';
-import 'package:demand/domain/model/model/review_statistic_model.dart';
-import 'package:demand/domain/model/response/review_check_response.dart';
-import 'package:demand/domain/model/response/review_options_response.dart';
-import 'package:demand/domain/model/response/review_pagination_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/review.dart';
+import 'package:temiwa/domain/model/model/review_statistic_model.dart';
+import 'package:temiwa/domain/model/response/review_check_response.dart';
+import 'package:temiwa/domain/model/response/review_options_response.dart';
+import 'package:temiwa/domain/model/response/review_pagination_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class ReviewRepository implements ReviewInterface {
   @override

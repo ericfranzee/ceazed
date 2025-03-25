@@ -1,15 +1,15 @@
-import 'package:demand/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:demand/domain/model/model/location_model.dart';
-import 'package:demand/domain/model/model/parcel_order_model.dart';
-import 'package:demand/domain/model/response/parcel_calculate_response.dart';
-import 'package:demand/domain/model/response/parcel_response.dart';
-import 'package:demand/domain/model/response/payments_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/route/app_route.dart';
-import 'package:demand/presentation/route/app_route_parcel.dart';
+import 'package:temiwa/domain/model/model/location_model.dart';
+import 'package:temiwa/domain/model/model/parcel_order_model.dart';
+import 'package:temiwa/domain/model/response/parcel_calculate_response.dart';
+import 'package:temiwa/domain/model/response/parcel_response.dart';
+import 'package:temiwa/domain/model/response/payments_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
+import 'package:temiwa/presentation/route/app_route_parcel.dart';
 
 part 'parcel_event.dart';
 

@@ -3,15 +3,15 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/app_constants.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/cart.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/cart_calculate_response.dart';
-import 'package:demand/domain/model/response/cart_response.dart';
-import 'package:demand/domain/model/response/product_calculate_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/app_constants.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/cart.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/cart_calculate_response.dart';
+import 'package:temiwa/domain/model/response/cart_response.dart';
+import 'package:temiwa/domain/model/response/product_calculate_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class CartRepository implements CartInterface {
   @override

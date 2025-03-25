@@ -1,14 +1,14 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/domain/model/model/shop_model.dart';
-import 'package:demand/domain/model/model/story_model.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/route/app_route_shop.dart';
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/domain/model/model/shop_model.dart';
+import 'package:temiwa/domain/model/model/story_model.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/route/app_route_shop.dart';
+import 'package:temiwa/presentation/style/style.dart';
 import 'package:jiffy/jiffy.dart';
 
 class StoryImage extends StatefulWidget {

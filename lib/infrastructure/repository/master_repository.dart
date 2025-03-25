@@ -1,13 +1,13 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/interface/master.dart';
-import 'package:demand/domain/model/model/master_model.dart';
-import 'package:demand/domain/model/model/review_data.dart';
-import 'package:demand/domain/model/response/master_response.dart';
-import 'package:demand/domain/model/response/shop_images_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/interface/master.dart';
+import 'package:temiwa/domain/model/model/master_model.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
+import 'package:temiwa/domain/model/response/master_response.dart';
+import 'package:temiwa/domain/model/response/shop_images_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
 
 class MasterRepository implements MasterInterface {
   @override

@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/request/add_user_address_model.dart';
+import 'package:temiwa/domain/model/request/add_user_address_model.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:demand/domain/model/response/city_pagination_response.dart';
-import 'package:demand/domain/model/response/country_paginate_response.dart';
-import 'package:demand/domain/model/response/delivery_point_response.dart';
-import 'package:demand/domain/model/response/draw_routing_response.dart';
-import 'package:demand/domain/model/response/user_address_response.dart';
+import 'package:temiwa/domain/model/response/city_pagination_response.dart';
+import 'package:temiwa/domain/model/response/country_paginate_response.dart';
+import 'package:temiwa/domain/model/response/delivery_point_response.dart';
+import 'package:temiwa/domain/model/response/draw_routing_response.dart';
+import 'package:temiwa/domain/model/response/user_address_response.dart';
 
 abstract class AddressInterface {
   Future<Either<DeliveryPointResponse, dynamic>> showWareHouse();

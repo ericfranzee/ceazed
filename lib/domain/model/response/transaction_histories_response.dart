@@ -1,6 +1,6 @@
 
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/transactions_response.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/transactions_response.dart';
 
 class TransactionPaginationResponse {
   TransactionPaginationResponse({

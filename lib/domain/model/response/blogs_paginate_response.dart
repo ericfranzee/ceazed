@@ -1,6 +1,6 @@
 
 
-import 'package:demand/domain/model/model/blog_model.dart';
+import 'package:temiwa/domain/model/model/blog_model.dart';
 
 class BlogsPaginateResponse {
   BlogsPaginateResponse({

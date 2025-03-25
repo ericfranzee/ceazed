@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/domain/model/model/typed_extra.dart';
-import 'package:demand/presentation/components/components.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/model/typed_extra.dart';
+import 'package:temiwa/presentation/components/components.dart';
 
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/style.dart';
 
 class ImageExtras extends StatelessWidget {
   final int groupIndex;

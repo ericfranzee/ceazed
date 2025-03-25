@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:demand/domain/model/response/delivery_point_response.dart';
-import 'package:demand/domain/model/response/user_address_response.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/pages/checkout/delivered_screen.dart';
-import 'package:demand/presentation/pages/checkout/delivery_points.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/domain/model/response/delivery_point_response.dart';
+import 'package:temiwa/domain/model/response/user_address_response.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/pages/checkout/delivered_screen.dart';
+import 'package:temiwa/presentation/pages/checkout/delivery_points.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 class ShippingScreen extends StatelessWidget {
   final CustomColorSet colors;

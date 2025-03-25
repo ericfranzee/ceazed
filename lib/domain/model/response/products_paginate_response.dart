@@ -1,5 +1,5 @@
-import 'package:demand/domain/model/model/meta_model.dart';
-import 'package:demand/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/model/meta_model.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
 
 class ProductsPaginateResponse {
   ProductsPaginateResponse({List<ProductData>? data, Meta? meta}) {

@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:demand/domain/model/model/review_data.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
 
 ShopImagesResponse shopImagesResponseFromJson(String str) =>
     ShopImagesResponse.fromJson(json.decode(str));

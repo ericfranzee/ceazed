@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:demand/domain/model/model/shop_model.dart';
-import 'package:demand/domain/model/response/delivery_point_response.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/domain/model/model/shop_model.dart';
+import 'package:temiwa/domain/model/response/delivery_point_response.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 import 'package:intl/intl.dart';
 
 abstract class TimeService {

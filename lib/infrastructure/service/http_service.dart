@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 
 import 'token_interceptor.dart';
 

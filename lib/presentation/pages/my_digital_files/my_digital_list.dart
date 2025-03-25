@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/application/profile/profile_bloc.dart';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/application/profile/profile_bloc.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 
-import 'package:demand/presentation/components/components.dart';
+import 'package:temiwa/presentation/components/components.dart';
 
-import 'package:demand/presentation/pages/my_digital_files/digital_item.dart';
-import 'package:demand/presentation/pages/notification/widgets/notification_shimmer.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/presentation/pages/my_digital_files/digital_item.dart';
+import 'package:temiwa/presentation/pages/notification/widgets/notification_shimmer.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 import 'package:lottie/lottie.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 

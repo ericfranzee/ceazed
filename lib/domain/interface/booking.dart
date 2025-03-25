@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/master_model.dart';
-import 'package:demand/domain/model/response/blog_details_response.dart';
-import 'package:demand/domain/model/response/booking_calculate_response.dart';
-import 'package:demand/domain/model/response/booking_response.dart';
-import 'package:demand/domain/model/response/check_time_response.dart';
-import 'package:demand/domain/model/response/form_options_response.dart';
-import 'package:demand/domain/model/response/service_of_master_response.dart';
+import 'package:temiwa/domain/model/model/master_model.dart';
+import 'package:temiwa/domain/model/response/blog_details_response.dart';
+import 'package:temiwa/domain/model/response/booking_calculate_response.dart';
+import 'package:temiwa/domain/model/response/booking_response.dart';
+import 'package:temiwa/domain/model/response/check_time_response.dart';
+import 'package:temiwa/domain/model/response/form_options_response.dart';
+import 'package:temiwa/domain/model/response/service_of_master_response.dart';
 
 abstract class BookingInterface {
   Future<Either<BookingResponse, dynamic>> getBooks(

@@ -1,5 +1,5 @@
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/domain/model/model/typed_extra.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/model/typed_extra.dart';
 
 import 'enums.dart';
 import 'helper.dart';

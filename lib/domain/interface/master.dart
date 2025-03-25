@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/master_model.dart';
-import 'package:demand/domain/model/model/review_data.dart';
-import 'package:demand/domain/model/response/master_response.dart';
+import 'package:temiwa/domain/model/model/master_model.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
+import 'package:temiwa/domain/model/response/master_response.dart';
 
 abstract class MasterInterface {
   Future<Either<MasterPaginationResponse, dynamic>> getMasters({

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/application/map/map_bloc.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/pages/map/widgets/main_list_shimmer.dart';
-import 'package:demand/presentation/pages/map/widgets/searched_location_item.dart';
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/application/map/map_bloc.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/pages/map/widgets/main_list_shimmer.dart';
+import 'package:temiwa/presentation/pages/map/widgets/searched_location_item.dart';
+import 'package:temiwa/presentation/style/style.dart';
 
 class SearchLocationPage extends StatefulWidget {
   const SearchLocationPage({super.key});

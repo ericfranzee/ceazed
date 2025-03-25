@@ -1,4 +1,4 @@
-import 'package:demand/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
 
 
 class VerifyPhoneResponse {

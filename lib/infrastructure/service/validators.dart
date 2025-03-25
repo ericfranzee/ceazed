@@ -1,4 +1,4 @@
-import 'package:demand/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
 
 abstract class AppValidators {
   AppValidators._();

@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:demand/domain/model/model/chat_model.dart';
-import 'package:demand/domain/model/model/message_model.dart';
-import 'package:demand/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/model/chat_model.dart';
+import 'package:temiwa/domain/model/model/message_model.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
 
 abstract class ChatInterface {
   Future<Either<List<ChatModel>, dynamic>> getChatList({String? lastDocId});

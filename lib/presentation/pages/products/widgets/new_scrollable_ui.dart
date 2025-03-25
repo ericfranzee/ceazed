@@ -3,9 +3,9 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/application/new_ui/new_ui_bloc.dart';
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/presentation/components/product_items/new_product_item.dart';
+import 'package:temiwa/application/new_ui/new_ui_bloc.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/presentation/components/product_items/new_product_item.dart';
 
 class NewScrollableUi extends StatefulWidget {
   final List<ProductData> list;

@@ -1,14 +1,14 @@
 import 'dart:convert';
-import 'package:demand/domain/di/dependency_manager.dart';
-import 'package:demand/domain/model/model/address_model.dart';
-import 'package:demand/domain/model/model/currency_model.dart';
-import 'package:demand/domain/model/model/local_cart_model.dart';
-import 'package:demand/domain/model/model/location_model.dart';
-import 'package:demand/domain/model/model/user_model.dart';
-import 'package:demand/domain/model/response/delivery_point_response.dart';
-import 'package:demand/domain/model/response/global_settings_response.dart';
-import 'package:demand/domain/model/response/languages_response.dart';
-import 'package:demand/game/models/board.dart';
+import 'package:temiwa/domain/di/dependency_manager.dart';
+import 'package:temiwa/domain/model/model/address_model.dart';
+import 'package:temiwa/domain/model/model/currency_model.dart';
+import 'package:temiwa/domain/model/model/local_cart_model.dart';
+import 'package:temiwa/domain/model/model/location_model.dart';
+import 'package:temiwa/domain/model/model/user_model.dart';
+import 'package:temiwa/domain/model/response/delivery_point_response.dart';
+import 'package:temiwa/domain/model/response/global_settings_response.dart';
+import 'package:temiwa/domain/model/response/languages_response.dart';
+import 'package:temiwa/game/models/board.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'storage_keys.dart';

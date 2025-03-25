@@ -1,4 +1,4 @@
-import 'package:demand/domain/model/model/shop_model.dart';
+import 'package:temiwa/domain/model/model/shop_model.dart';
 
 
 

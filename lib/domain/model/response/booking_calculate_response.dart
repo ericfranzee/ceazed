@@ -1,5 +1,5 @@
-import 'package:demand/domain/model/model/master_model.dart';
-import 'package:demand/domain/model/model/service_extra.dart';
+import 'package:temiwa/domain/model/model/master_model.dart';
+import 'package:temiwa/domain/model/model/service_extra.dart';
 
 class BookingCalculateResponse {
   DateTime? timestamp;

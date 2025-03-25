@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:demand/app_constants.dart';
-import 'package:demand/application/auth/auth_bloc.dart';
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/infrastructure/firebase/firebase_service.dart';
-import 'package:demand/infrastructure/local_storage/local_storage.dart';
-import 'package:demand/presentation/app_assets.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/route/app_route.dart';
-import 'package:demand/presentation/route/app_route_setting.dart';
-import 'package:demand/presentation/style/style.dart';
+import 'package:temiwa/app_constants.dart';
+import 'package:temiwa/application/auth/auth_bloc.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/infrastructure/firebase/firebase_service.dart';
+import 'package:temiwa/infrastructure/local_storage/local_storage.dart';
+import 'package:temiwa/presentation/app_assets.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
+import 'package:temiwa/presentation/route/app_route_setting.dart';
+import 'package:temiwa/presentation/style/style.dart';
 
 class AuthPage extends StatefulWidget {
   const AuthPage({super.key});

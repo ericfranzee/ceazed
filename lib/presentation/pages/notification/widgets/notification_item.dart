@@ -1,24 +1,24 @@
-import 'package:demand/app_constants.dart';
+import 'package:temiwa/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_remix/flutter_remix.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:demand/application/notification/notification_bloc.dart';
-import 'package:demand/domain/model/model/blog_model.dart';
-import 'package:demand/domain/model/model/order_model.dart';
-import 'package:demand/domain/model/model/parcel_order_model.dart';
-import 'package:demand/domain/model/model/shop_model.dart';
-import 'package:demand/domain/model/response/notification_response.dart';
+import 'package:temiwa/application/notification/notification_bloc.dart';
+import 'package:temiwa/domain/model/model/blog_model.dart';
+import 'package:temiwa/domain/model/model/order_model.dart';
+import 'package:temiwa/domain/model/model/parcel_order_model.dart';
+import 'package:temiwa/domain/model/model/shop_model.dart';
+import 'package:temiwa/domain/model/response/notification_response.dart';
 
-import 'package:demand/infrastructure/service/services.dart';
-import 'package:demand/presentation/components/components.dart';
-import 'package:demand/presentation/route/app_route.dart';
-import 'package:demand/presentation/route/app_route_parcel.dart';
-import 'package:demand/presentation/route/app_route_service.dart';
-import 'package:demand/presentation/route/app_route_setting.dart';
-import 'package:demand/presentation/style/style.dart';
-import 'package:demand/presentation/style/theme/theme.dart';
+import 'package:temiwa/infrastructure/service/services.dart';
+import 'package:temiwa/presentation/components/components.dart';
+import 'package:temiwa/presentation/route/app_route.dart';
+import 'package:temiwa/presentation/route/app_route_parcel.dart';
+import 'package:temiwa/presentation/route/app_route_service.dart';
+import 'package:temiwa/presentation/route/app_route_setting.dart';
+import 'package:temiwa/presentation/style/style.dart';
+import 'package:temiwa/presentation/style/theme/theme.dart';
 
 class NotificationItem extends StatelessWidget {
   final CustomColorSet colors;

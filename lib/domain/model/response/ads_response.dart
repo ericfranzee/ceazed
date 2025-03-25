@@ -1,5 +1,5 @@
-import 'package:demand/domain/model/model/product_model.dart';
-import 'package:demand/domain/model/model/review_data.dart';
+import 'package:temiwa/domain/model/model/product_model.dart';
+import 'package:temiwa/domain/model/model/review_data.dart';
 
 import '../model/translation_model.dart';
 
